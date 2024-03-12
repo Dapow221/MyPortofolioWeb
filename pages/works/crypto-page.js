@@ -35,7 +35,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Vue Js, Express Js, Web Socket, Axios, Bootstrap</span>
+            <span>Vue Js, Express Js, Web Socket, Axios, Bootstrap, Node Js</span>
           </ListItem>
         </List>
         <Box mt={3}>

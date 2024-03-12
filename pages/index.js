@@ -109,9 +109,10 @@ const Homepage = () => {
             <BioYear>2023</BioYear>
             <Link
               as={NextLink}
-              href="https://www.hacktiv8.com"
+              href="https://job-portal-manual.s3.amazonaws.com/Certificate+-+Muhammad+Daffa+Salsabil.pdf"
               passHref
               scroll={false}
+              target="_blank"
             >
               Certificated{" "}
             </Link> Fullstack Javascript Immersive at{" "}
@@ -120,6 +121,7 @@ const Homepage = () => {
               href="https://www.hacktiv8.com"
               passHref
               scroll={false}
+              target="_blank"
             >
               Hacktiv8 Indonesia{" "}
             </Link>
@@ -150,21 +152,7 @@ const Homepage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.twitter.com" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>
-                  @Jewelry
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://www.instagram.com" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram}/>}>
-                  @_dapooow
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://www.linkedin.com" target="_blank">
+              <Link href="https://www.linkedin.com/in/m-daffa-salsabil-915a911aa" target="_blank">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>
                   Muhammad Daffa Salsabil
                 </Button>
