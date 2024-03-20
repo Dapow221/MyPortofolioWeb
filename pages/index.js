@@ -17,7 +17,7 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import Layout from "../components/layouts/article";
 import Ghibli from "../components/ghibli";
 import { BioSection, BioYear } from "../components/bio";
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5"
+import { IoLogoGithub, IoLogoLinkedin   } from "react-icons/io5"
 
 const Homepage = () => {
   return (
