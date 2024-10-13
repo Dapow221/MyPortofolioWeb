@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import Head from 'next/head'
 import { GridItemStyle } from '../grid-item'
+import { Box } from '@chakra-ui/react'
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
@@ -8,7 +9,7 @@ const variants = {
   exit: { opacity: 0, x: -0, y: 20 }
 }
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children, title, textAlign = 'left', footerAlign = 'center' }) => {
   const t = `${title} - Muhammad Daffa Salsabil`
   return (
     <motion.article
@@ -27,9 +28,12 @@ const Layout = ({ children, title }) => {
             <meta property="og:title" content={t} />
           </Head>
         )}
-        {children}
-
-        <GridItemStyle />
+        <Box textAlign={textAlign}>
+          {children}
+        </Box>
+        <Box textAlign={footerAlign}>
+          <GridItemStyle />
+        </Box>
       </>
     </motion.article>
   )

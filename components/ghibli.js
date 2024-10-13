@@ -4,9 +4,9 @@ const Ghibli = () => {
   return (
     <Box display={{ md: "flex" }} justifyContent="center">
       <Image
-        src="/images/ghibli.png"
-        width={260}
-        height={180}
+        src="/images/1345658.png"
+        width={[560, 566, 585]}
+        height={230}
         margin="auto"
         textAlign="center"
       />
